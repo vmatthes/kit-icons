@@ -1,0 +1,53 @@
+{
+  "name": "kit-icons",
+  "version": "1.0.0",
+  "description": "Icon Package for all of the web",
+  "publishConfig": {
+    "license": "ISC",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "build": "yarn clean && yarn generate && yarn tsc",
+    "generate": "svgr --out-dir src/generated src/svgs",
+    "prettier": "prettier --check \"./**/*.{json,js,ts,tsx}\"",
+    "prettier:fix": "prettier --write \"./**/*.{json,js,ts,tsx}\""
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/runtime-corejs3": "^7.7.6",
+    "@svgr/cli": "^6.1.2",
+    "@types/react": "^18.3.1",
+    "babel-loader": "^8.0.6",
+    "identity-obj-proxy": "^3.0.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "source-map-loader": "^3.0.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "iconset",
+    "components"
+  ],
+  "author": "Volker Matthes",
+  "license": "ISC",
+  "homepage": "https://www.volkermatthes.de"
+}
