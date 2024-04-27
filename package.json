@@ -47,7 +47,14 @@
     "iconset",
     "components"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkermatthes/kit-icons.git"
+  },
   "author": "Volker Matthes",
   "license": "ISC",
-  "homepage": "https://www.volkermatthes.de"
+  "homepage": "https://www.volkermatthes.de",
+  "bugs": {
+    "url": "https://github.com/volkermatthes/kit-icons/issues"
+  }
 }
