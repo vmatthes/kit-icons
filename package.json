@@ -6,6 +6,22 @@
     "license": "ISC",
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkermatthes/kit-icons.git"
+  },
+  "author": "Volker Matthes",
+  "license": "ISC",
+  "homepage": "https://www.volkermatthes.de",
+  "bugs": {
+    "url": "https://github.com/volkermatthes/kit-icons/issues"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "iconset",
+    "components"
+  ],
   "files": [
     "dist/**/*"
   ],
@@ -40,21 +56,5 @@
     "source-map-loader": "^3.0.0",
     "ts-loader": "^9.2.6",
     "typescript": "^5.4.5"
-  },
-  "keywords": [
-    "react",
-    "icons",
-    "iconset",
-    "components"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/volkermatthes/kit-icons.git"
-  },
-  "author": "Volker Matthes",
-  "license": "ISC",
-  "homepage": "https://www.volkermatthes.de",
-  "bugs": {
-    "url": "https://github.com/volkermatthes/kit-icons/issues"
   }
 }
