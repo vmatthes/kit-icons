@@ -4,11 +4,11 @@
   "description": "Icon Package for all of the web",
   "publishConfig": {
     "license": "ISC",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volkermatthes/kit-icons.git"
+    "url": "git://github.com/volkermatthes/kit-icons.git"
   },
   "author": "Volker Matthes",
   "license": "ISC",
