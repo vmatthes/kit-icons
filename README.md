@@ -2,7 +2,7 @@
 
 ## Install
 
-To install the package use command `npm install @volkermatthes/kit-icons` or `yarn add @volkermatthes/kit-icons`.
+To install the package use command `npm install kit-icons` or `yarn add kit-icons`.
 
 ## Usage
 
